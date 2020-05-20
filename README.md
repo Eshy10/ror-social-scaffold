@@ -2,6 +2,13 @@
 
 > This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
 
+![ror-social-scaffold](https://user-images.githubusercontent.com/49276315/82429659-95f23980-9a8c-11ea-985e-1989fc0c6520.png)
+
+
+## Live Demo
+
+[Live Demo](https://infinite-mesa-55342.herokuapp.com/)
+
 ## Built With
 
 - Ruby v2.7.0
@@ -47,11 +54,13 @@ Open `http://localhost:3000/` in your browser.
 ### Run tests
 
 ```
-    rpsec --format documentation
+    rspec --format documentation
 ```
 
-> Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
+## Integration and Unit Test
 
+- Rspec
+- Capybara 
 
 ## Authors
 

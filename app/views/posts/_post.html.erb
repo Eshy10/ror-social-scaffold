@@ -9,7 +9,6 @@
       <small><%= pluralize(post.likes.count, 'like') %></small>
     </div>
   </div>
-  <% if current_user || current_user.friends %>
     <p class="post-content">
       <%= post.content %>
       <small><%= pluralize(post.comments.count, 'comment') %></small>
@@ -30,5 +29,4 @@
         <%= form.submit 'Comment', class: 'btn btn-secondary' %>
       <% end %>
     </div>
-  <% end %>
 </div>
